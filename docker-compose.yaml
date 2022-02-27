@@ -19,7 +19,8 @@ services:
       MYSQL_ROOT_PASSWORD: 'root'
       MYSQL_USER: 'root'
       MYSQL_PASSWORD: 'root'
-      MYSQL_DATABASE: 'web_programming'
+      MYSQL_DATABASE: 'blog_db'
+      MYSQL_TCP_PORT: 3306
     volumes:
       - mysqldata:/var/lib/mysql
     ports:

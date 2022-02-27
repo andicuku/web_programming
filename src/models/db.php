@@ -34,6 +34,7 @@ class Database
             $errorCode = $e->getCode();
             $errorMessage = $e->getMessage();
             echo "Error: $errorCode - $errorMessage";
+            include ("src/views/error.php");
             exit();
         }
     }
